@@ -17,16 +17,18 @@
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
-    "@planetscale/database": "^1.16.0",
-    "drizzle-orm": "^0.29.4"
+    "drizzle-orm": "^0.29.4",
+    "postgres": "^3.4.3"
   },
   "devDependencies": {
     "@acme/eslint-config": "workspace:^0.2.0",
     "@acme/prettier-config": "workspace:^0.1.0",
     "@acme/tsconfig": "workspace:^0.1.0",
+    "@types/pg": "^8.11.2",
     "dotenv-cli": "^7.3.0",
     "drizzle-kit": "^0.20.14",
     "eslint": "^8.57.0",
+    "pg": "^8.11.3",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
   },
