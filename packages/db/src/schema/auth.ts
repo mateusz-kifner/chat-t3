@@ -63,7 +63,7 @@ export const sessions = pgTable(
     expires: timestamp("expires", { mode: "date" }).notNull(),
   },
   (session) => ({
-    userIdIdx: index("userId_idx").on(session.userId),
+    userIdIdx2: index("userId_idx2").on(session.userId),
   }),
 );
 

@@ -6,4 +6,4 @@ import { pgTableCreator } from "drizzle-orm/pg-core";
  *
  * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
  */
-export const pgTable = pgTableCreator((name) => `chat_t3_${name}`);
+export const pgTable = pgTableCreator((name) => `chatT3_${name}`);
