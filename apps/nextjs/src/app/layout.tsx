@@ -1,10 +1,9 @@
 import type { Metadata, Viewport } from "next";
+import { cn } from "@chat-t3/ui";
+import { ThemeProvider, ThemeToggle } from "@chat-t3/ui/theme";
+import { Toaster } from "@chat-t3/ui/toast";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
-
-import { cn } from "@acme/ui";
-import { ThemeProvider, ThemeToggle } from "@acme/ui/theme";
-import { Toaster } from "@acme/ui/toast";
 
 import { env } from "~/env";
 import { TRPCReactProvider } from "~/trpc/react";

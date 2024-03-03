@@ -1,5 +1,5 @@
 {
-  "name": "@acme/db",
+  "name": "@chat-t3/db",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -21,9 +21,9 @@
     "postgres": "^3.4.3"
   },
   "devDependencies": {
-    "@acme/eslint-config": "workspace:^0.2.0",
-    "@acme/prettier-config": "workspace:^0.1.0",
-    "@acme/tsconfig": "workspace:^0.1.0",
+    "@chat-t3/eslint-config": "workspace:^0.2.0",
+    "@chat-t3/prettier-config": "workspace:^0.1.0",
+    "@chat-t3/tsconfig": "workspace:^0.1.0",
     "@types/pg": "^8.11.2",
     "dotenv-cli": "^7.3.0",
     "drizzle-kit": "^0.20.14",
@@ -35,8 +35,8 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@acme/eslint-config/base"
+      "@chat-t3/eslint-config/base"
     ]
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@chat-t3/prettier-config"
 }

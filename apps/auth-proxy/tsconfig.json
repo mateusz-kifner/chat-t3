@@ -1,4 +1,4 @@
 {
-  "extends": "@acme/tsconfig/base.json",
+  "extends": "@chat-t3/tsconfig/base.json",
   "include": ["routes"]
 }
