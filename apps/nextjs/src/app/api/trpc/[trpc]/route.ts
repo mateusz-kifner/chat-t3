@@ -2,7 +2,7 @@ import { appRouter, createTRPCContext } from "@chat-t3/api";
 import { auth } from "@chat-t3/auth";
 import { fetchRequestHandler } from "@trpc/server/adapters/fetch";
 
-export const runtime = "edge";
+// export const runtime = "edge"; // uncomment this if you are running on edge
 
 /**
  * Configure basic CORS headers
