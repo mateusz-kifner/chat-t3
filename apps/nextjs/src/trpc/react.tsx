@@ -4,6 +4,7 @@ import type { AppRouter } from "@chat-t3/api";
 import { useState } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { loggerLink, unstable_httpBatchStreamLink } from "@trpc/client";
+// import { httpBatchLink } from "@trpc/client"; // this is confirmed to work
 import { createTRPCReact } from "@trpc/react-query";
 import SuperJSON from "superjson";
 
