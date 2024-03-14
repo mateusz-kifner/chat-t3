@@ -1,5 +1,3 @@
-"use client";
-
 import type { AppRouter } from "@chat-t3/api";
 import { useState } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";

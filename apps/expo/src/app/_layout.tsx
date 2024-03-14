@@ -1,7 +1,6 @@
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
-
-import { TRPCProvider } from "~/utils/api";
+import { TRPCProvider } from "@/utils/api";
 
 import "../styles.css";
 
